@@ -1,0 +1,19 @@
+.btn {
+  height: var(--control-height);
+  padding: 0 var(--space-4);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  background: var(--primary);
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: var(--primary-hover);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}

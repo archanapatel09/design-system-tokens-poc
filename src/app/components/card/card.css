@@ -1,0 +1,14 @@
+.card {
+  width: 100%;
+  max-width: 420px;
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-6);
+
+  background: var(--surface);
+}
+
+.card- h3 {
+  margin: 0 0 var(--space-3) 0;
+}

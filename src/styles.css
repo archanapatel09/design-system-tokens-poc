@@ -1,0 +1,58 @@
+
+
+:root {
+  /* colors */
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted-text: #6b7280;
+  --border: #e5e7eb;
+
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  /* spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+
+  /* radius */
+  --radius: 12px;
+
+  /* control */
+  --control-height: 40px;
+}
+
+/* Dark theme override */
+:root[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #111a2e;
+  --text: #e5e7eb;
+  --muted-text: #a1a1aa;
+  --border: #25324a;
+
+  --primary: #60a5fa;
+  --primary-hover: #3b82f6;
+}
+/* High Contrast theme */
+:root[data-theme="High Contrast"] {
+  --bg: #000000;
+  --surface: #000000;
+  --text: #ffffff;
+  --muted-text: #ffffff;
+  --border: #ffffff;
+
+  --primary: #ffff00;        /* yellow */
+  --primary-hover: #ffea00;
+}
+
+
+/* Apply tokens globally */
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
